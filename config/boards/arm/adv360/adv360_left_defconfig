@@ -68,6 +68,14 @@ CONFIG_BUILD_OUTPUT_UF2=y
 
 CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y
 CONFIG_ZMK_BLE_PASSKEY_ENTRY=n
+CONFIG_BT_DIS_MANUF="Kinesis Corporation"
+
+# Turn on logging, and set ZMK logging to debug output
+CONFIG_LOG=y
+CONFIG_ZMK_USB_LOGGING=y
+
+# Set idle timeout to 10 minutes instead of the default quite low value
+CONFIG_ZMK_IDLE_TIMEOUT=600000
 
 CONFIG_ZMK_BLE=y
 CONFIG_ZMK_USB=y
