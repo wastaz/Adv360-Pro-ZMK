@@ -72,9 +72,9 @@
       bindings = <
         &trans &trans &trans &trans &trans &trans &trans                                                         &trans &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans &trans                                                         &trans &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans &trans        &kp LGUI &kp LCTRL          &trans &kp LALT      &trans &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans        &none  &none    &trans &none &none &trans &none  &none         &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans               &trans &trans   &trans             &trans &trans &trans               &trans &trans &trans  &trans  &trans
+        &trans &trans &trans &trans &trans &trans &macro_altspace  &kp LGUI &kp LCTRL          &trans &kp LALT      &trans &trans &trans &trans &trans  &trans  &trans
+        &trans &trans &trans &trans &trans &trans                  &none  &none    &trans &none &none &trans &none  &none         &trans &trans &trans &trans  &trans  &trans
+        &trans &trans &trans &trans &trans                         &trans &trans   &trans             &trans &trans &trans               &trans &trans &trans  &trans  &trans
       >;    
     };
   };
