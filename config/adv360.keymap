@@ -72,7 +72,7 @@
       bindings = <
         &trans &trans &trans &trans &trans &trans &trans                                                         &trans &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans &trans                                                         &trans &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans &kp LA(SPACE)  &kp LGUI &kp LCTRL          &trans &kp LALT      &trans &trans &trans &trans &trans  &trans  &trans
+        &trans &trans &trans &trans &trans &trans &kp LC(SPACE)  &kp LGUI &kp LCTRL          &trans &kp LALT      &trans &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans                &none  &none    &trans &none &none &trans &none  &none         &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans                       &trans &trans   &trans             &trans &trans &trans               &trans &trans &trans  &trans  &trans
       >;    
